@@ -52,12 +52,19 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 
+		<!--    MySql    -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version>
+		</dependency>
+
 		<!--    H2 Data Base dependency    -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
 		</dependency>
+
 
 		<!--    Model Mapper dependency    -->
 		<dependency>
